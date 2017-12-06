@@ -1,0 +1,62 @@
+body {
+  background-image: url("../images/background.jpg");
+  background-repeat: none;
+  background-size: 100%;
+  font-family: 'Bitter', serif;
+}
+
+p1 {
+  font-style: italic;
+}
+
+.content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 40%;
+  padding: 50px;
+  text-align: center;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  border: 5px solid black;
+  border-radius: 25px;
+}
+
+.wordcontainer {
+  float: center;
+  clear: none;
+  text-align: center;
+}
+
+#game-word {
+  float: center;
+  font-size: 40px;
+  letter-spacing: 10px;
+}
+
+#game-letters {
+  float: center;
+  display: inline;
+  font-size: 20px;
+}
+
+
+#guess-list {
+  float: center;
+  display: inline;
+}
+
+.guesscontainer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  float: center;
+  text-align: center;
+}
+
+#you-win {
+  font-size: 30px;
+  font-weight: bold;
+  color: blue;
+}
